@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa Modulo 8</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda de contatos</h1>
+        </header>
+        <form id="form-atividade">
+            <input type="text" id="nomeForm" required placeholder="Digite seu nome aqui" maxlength="16">
+            <input type="tel" id="telefoneForm" required placeholder="Insira seu telefone aqui" maxlength="16">
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p class="sucesso-mensagem"></p>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Numero</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <tfoot>
+                <tr>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <img src="./imagens/gatoDancando.gif" alt="Gatinho sexy da esquerda dançando" class="gatinhoEsquerda" style="float: left;">
+    <img src="./imagens/gatoDancando.gif" alt="Gatinho sexy da direita dançando" class="gatinhoDireita" style="float:right;">
+    
+    <canvas id="confetti"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
+
+<!-- Não sei se você vai ler essa parte da tarefa, mas eu tentei fazer um card igual como Elvaci Rebelo Matos Junior me ensinou, se for você que ler isso muito obrigada <3 -->
